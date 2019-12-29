@@ -1,4 +1,4 @@
-package ru.geekbrains.spring1.lesson1.annotationconfig;
+package ru.sberdyshev.learn.geekbrains.java.spring.web.lesson1.classwork.annotationconfig;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -11,6 +11,7 @@ public class Registry {
     public Refferal getRefferal() {
         return refferal;
     }
+
     @Autowired(required = false)
     @Qualifier("Refferal")
     public void setRefferal(Refferal refferal) {

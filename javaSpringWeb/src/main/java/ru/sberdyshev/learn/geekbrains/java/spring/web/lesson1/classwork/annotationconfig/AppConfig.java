@@ -1,4 +1,4 @@
-package ru.geekbrains.spring1.lesson1.annotationconfig;
+package ru.sberdyshev.learn.geekbrains.java.spring.web.lesson1.classwork.annotationconfig;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
